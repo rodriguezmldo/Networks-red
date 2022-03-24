@@ -1,0 +1,77 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+h1{
+    border-radius: 15%;
+    border: white solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    width: 950px;
+    background-color: #8d0606;
+    color: white;
+    margin-top: 25px;
+}
+/* 
+    Con text-transform
+        capitalize: Cada letra las pone en mayúsculas
+        lowercase: Todo el texto lo pone en minisculas
+        uppercase: Todo el texto en mayúsculas
+    */
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    background: scroll;
+    text-decoration: none;
+}
+td{
+    text-align: center;
+    display: inline-block;
+    margin: 3px;
+    border-radius: 15px;
+    border: white solid;
+    width:385px;
+    background-color: rgb(79, 158, 194);
+    height: 220px;
+    font-size: 35px;
+}
+tr{
+    display: block;
+    margin: 10px;
+}
+article{
+    background-color: rgb(79, 158, 194);
+    border: rgb(79, 158, 194) solid;
+    border-radius: 15px;
+}
+.td-img{
+    background-color: rgb(79, 158, 194);
+    height: 90px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.td-img-especial{
+    background-color: rgb(79, 158, 194);
+    height: 90px;
+    display: inline-block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.td-especial{
+    margin-left: 414px;
+}
+table a{
+    color: aliceblue;
+}
+
+
+
+

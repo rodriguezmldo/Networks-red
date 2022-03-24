@@ -1,0 +1,32 @@
+fieldset{
+    border-radius: 10px;
+    width: 450px;
+    margin-left: 50px;
+    height: 230px;
+    display: block;
+    padding: 10px;
+}
+legend{
+    font-size: 28px;
+    color: blue;
+}
+.img-indice{
+    width: 300px;
+    display: flex;
+    width: 150px;
+}
+.img-left{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: scroll;
+}
+.img-left-img3{
+    display: flex;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: scroll;
+}
+.indice{
+    color: rgb(36, 4, 36)
+}
