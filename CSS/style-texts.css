@@ -1,0 +1,60 @@
+/* DISEÑO DEL TITULO */
+h1{
+    border: white solid;
+    width: 650px;
+    border-radius: 15%;
+    margin: 40px auto 0;
+    color: white;
+    background-color: #8d0606;
+    text-align: center;
+    display: block;
+    padding: 6px;
+}
+/* DISEÑ0 INICIAL: PRIMEROS TEMAS E INDICE */
+.contenido-inicial{
+    display:flex;
+    flex-flow: row wrap;
+}
+.contenido-inicial__conceptos{
+    width: 50%;
+    margin: 100px 40px;
+    flex-grow: 0.5;
+}
+
+fieldset{
+    border-radius: 10px;
+    width: 450px;
+    margin-left: 50px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    margin-top: 25%;
+}
+.indice img{
+    width: 150px;
+    float: inline-end;
+    float: right;
+    top: 0;
+    padding: 5px;
+}
+.indice legend{
+    color: #00F;
+    font-size: 30px;
+}
+/* DISEÑO DE TEMAS INTERMEDIO: FONDO NEGRO */
+.contenido-intermedio{
+    background-color: #000;
+    color: #FFF;
+    display: flex;
+}
+.contenido-intermedio__conceptos{
+    width: 75%;
+    margin: 100px 40px;
+}
+p, article li{
+    margin: 10px 0;
+}
+article{
+    margin: 25px 0;
+}
+ 
