@@ -24,21 +24,20 @@ text-decoration: none;
 .nav a{
     color: #fff;
     font-size: 25px;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 .nav__network-red, .nav__network-red a{
-    flex-grow: 1;
+    flex-grow: 1.1;
     font-size: 45px;
 }
 /* DISEÑO DEL TITULO */
 .titulo{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
     margin: 15px 0;
     text-align: center;
     font-size: 30px;
-    width: 100%;
     color: #a00;
     flex-flow: row wrap;
 }
@@ -48,12 +47,13 @@ text-decoration: none;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin: 25px 10%;
 }
 .contenido__conceptos, .contenido__estructura,
 .contenido__navegadores, .contenido__navegacion{
-    display:block;
-    width: 300px;
-    height: 225px;
+    display:inline-block;
+    width: 380px;
+    height: 240px;
     background-color: rgb(37, 34, 34);
     margin: 15px;
     text-align: center;
@@ -61,9 +61,13 @@ text-decoration: none;
 }
 .contenido a{
     color: #fff;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
 }
 .contenido img{
     height: 125px;
+    padding: 15px;
 }
 
 /* DISEÑO DEL FOOTER */
