@@ -1,8 +1,36 @@
-
+/* DISEÑO GENERAL */
 *{
     font-family:'Courier New', Courier, monospace;
     margin: 0%;
 }
+body{
+    background-color: rgb(255, 255, 255);
+}
+a{
+text-decoration: none;
+}
+
+/* DISEÑO DEL NAV */
+.nav{
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    height: 55px;
+    padding: 10px;
+    top: 0%;
+    position: -webkit-sticky;
+    position: sticky;
+}
+.nav a{
+    color: #fff;
+    font-size: 25px;
+    margin: 0 15px;
+}
+.nav__network-red, .nav__network-red a{
+    flex-grow: 1;
+    font-size: 45px;
+}
+/* DISEÑO DEL TITULO */
 .titulo{
     display: block;
     margin: 25px auto;
@@ -12,9 +40,8 @@
     width: 950px;
     color: #a00;
 }
-.nav{
-    background-color: rgb(10, 10, 10);
-}
+
+/* DISEÑO DEL CONTENIDO */
 .contenido{
     display: flex;
     flex-flow: row wrap;
@@ -22,15 +49,22 @@
 }
 .contenido__conceptos, .contenido__estructura,
 .contenido__navegadores, .contenido__navegacion{
+    display:block;
     width: 300px;
     height: 225px;
     background-color: rgb(37, 34, 34);
     margin: 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+.contenido a{
+    color: #fff;
 }
 .contenido img{
     height: 125px;
 }
 
+/* DISEÑO DEL FOOTER */
 footer{
     background-color: rgb(10, 10, 10);
     width: 100%;
