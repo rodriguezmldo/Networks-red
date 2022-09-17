@@ -14,9 +14,9 @@ text-decoration: none;
 .nav{
     background-color: rgb(10, 10, 10);
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
-    height: 55px;
-    padding: 10px;
+    padding: 15px;
     top: 0%;
     position: -webkit-sticky;
     position: sticky;
@@ -32,13 +32,15 @@ text-decoration: none;
 }
 /* DISEÑO DEL TITULO */
 .titulo{
-    display: block;
-    margin: 25px auto;
+    display: flex;
+    justify-content: center;
     padding: 20px;
+    margin: 15px 0;
     text-align: center;
     font-size: 30px;
-    width: 950px;
+    width: 100%;
     color: #a00;
+    flex-flow: row wrap;
 }
 
 /* DISEÑO DEL CONTENIDO */
