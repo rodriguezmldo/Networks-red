@@ -10,17 +10,7 @@ h1{
     display: block;
     padding: 6px;
 }
-/* DISEÑ0 INICIAL: PRIMEROS TEMAS E INDICE */
-.contenido-inicial{
-    display:flex;
-    flex-flow: row wrap;
-}
-.contenido-inicial__conceptos{
-    width: 50%;
-    margin: 100px 40px;
-    flex-grow: 0.5;
-}
-
+/* DISEÑ0 DEL INDICE */
 fieldset{
     border-radius: 10px;
     width: 450px;
@@ -35,20 +25,26 @@ fieldset{
     font-size: 30px;
 }
 
-/* DISEÑO DE TEMAS INTERMEDIO: FONDO NEGRO */
-.contenido-intermedio{
+/* DISEÑO DE LOS CONTENIDOS INICIALES */
+.contenido-inicial-white{
+    display:flex;
+    flex-flow: row wrap;
+}
+.contenido-inicial-white .conceptos{
+    width: 50%;
+    margin: 100px 40px;
+    flex-grow: 0.5;
+}
+
+
+/* DISEÑO DE LOS CONTENIDOS INTERMEDIOS*/
+.contenido-intermedio-black{
     background-color: #000;
     color: #FFF;
     display: flex;
 }
-.contenido-intermedio__conceptos{
+.contenido-intermedio-black .conceptos{
     width: 75%;
     margin: 100px 40px;
-}
-p, article li{
-    margin: 10px 0;
-}
-article{
-    margin: 25px 0;
 }
  

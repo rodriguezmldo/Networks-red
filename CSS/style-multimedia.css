@@ -1,3 +1,4 @@
+/* ESTILO DE IMG DE INDICE-CONTENIDO */
 .indice img{
     width: 150px;
     float: inline-end;
@@ -5,9 +6,18 @@
     top: 0;
     padding: 5px;
 }
+/* ESTILO DE IMG CONTENIDOS */
 article img{
-    height: 350px;
+    height: 250px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
+
 /* *{
     font-family:Georgia, 'Times New Roman', Times, serif;
 
@@ -80,13 +90,7 @@ a {
     text-decoration: none;
 }
 .img-style-two{
-    height: 250px;
-    border-radius: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    
 }
 .div-img-{
     display: block;
