@@ -30,17 +30,11 @@ fieldset{
     display: flex;
     margin-top: 25%;
 }
-.indice img{
-    width: 150px;
-    float: inline-end;
-    float: right;
-    top: 0;
-    padding: 5px;
-}
 .indice legend{
     color: #00F;
     font-size: 30px;
 }
+
 /* DISEÑO DE TEMAS INTERMEDIO: FONDO NEGRO */
 .contenido-intermedio{
     background-color: #000;
