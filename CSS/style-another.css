@@ -52,10 +52,7 @@
     display: inline-block;
     border-color: none;
 }
-span{
-    color: rgb(46, 49, 182);
-    font-style: italic;
-}
+
 hr{
     display: block;
     margin-left: 150px;

@@ -6,15 +6,6 @@
 body{
     background-color: rgb(255, 255, 255);
 }
-a{
-text-decoration: none;
-}
-p, article li{
-    margin: 10px 0;
-}
-article{
-    margin: 25px 0;
-}
 
 /* DISEÑO DEL NAV */
 .nav{
