@@ -94,3 +94,12 @@ fieldset{
     margin: 100px 40px;
     flex-grow: 0.5;
 }
+.contenido-final-black{
+    background-color: #000;
+    color: #FFF;
+    display: flex;
+}
+.contenido-final-black .estructura{
+    width: 75%;
+    margin: 100px 40px;
+}
