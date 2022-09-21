@@ -1,14 +1,33 @@
+/* DISEÑO DE TEXTOS EN GENERAL */
+a{
+text-decoration: none;
+}
+p, article li{
+    margin: 10px 0;
+}
+article{
+    margin: 25px 0;
+}
+span{
+    color: rgb(46, 49, 182);
+    font-style: italic;
+}
+
 /* DISEÑO DEL TITULO */
 h1{
     border: white solid;
-    width: 650px;
     border-radius: 15%;
-    margin: 40px auto 0;
+    margin: 40px auto;
+    width: 800px;
     color: white;
     background-color: #8d0606;
     text-align: center;
-    display: block;
     padding: 6px;
+}
+.titulo-black{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
 }
 /* DISEÑ0 DEL INDICE */
 fieldset{
@@ -35,6 +54,17 @@ fieldset{
     margin: 100px 40px;
     flex-grow: 0.5;
 }
+.contenido-inicial-black{
+    display: flex;
+    background-color: #000;
+    color: #FFF;
+    flex-flow: row wrap;
+}
+.contenido-inicial-black .estructura{
+    width: 50%;
+    margin: 100px 40px;
+    flex-grow: 0.5;
+}
 
 
 /* DISEÑO DE LOS CONTENIDOS INTERMEDIOS*/
@@ -47,4 +77,23 @@ fieldset{
     width: 75%;
     margin: 100px 40px;
 }
- 
+.contenido-intermedio-white{
+    background-color: #FFF;
+    color: #000;
+    display: flex;
+}
+.contenido-intermedio-white .estructura{
+    width: 75%;
+    margin: 100px 40px;
+}
+
+/* DISEÑOS DE CONTENIDOS FINALES */
+.contenido-final-white{
+    display:flex;
+    flex-flow: row wrap;
+}
+.contenido-final-white .conceptos{
+    width: 50%;
+    margin: 100px 40px;
+    flex-grow: 0.5;
+}

@@ -16,6 +16,11 @@ article img{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+ .contenido-final-black .estructura div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around
+} 
 
 
 /* *{
