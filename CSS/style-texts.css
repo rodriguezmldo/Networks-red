@@ -57,7 +57,7 @@ fieldset{
     color: #FFF;
     flex-flow: row wrap;
 }
-.contenido-inicial-black .estructura{
+.contenido-inicial-black .estructura, .contenido-inicial-black .navegadores{
     width: 50%;
     margin: 100px 40px;
     flex-grow: 0.5;

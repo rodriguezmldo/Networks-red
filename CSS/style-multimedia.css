@@ -21,12 +21,13 @@ article img{
     flex-flow: row wrap;
     justify-content:space-around
 } 
-iframe{
+article iframe{
     border: wheat solid;
     border-radius: 15px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    height: 400px;
+    width: 710px;
 }
 .comando table, .comando  td, .comando th{
     background-color: rgb(210, 243, 243);
