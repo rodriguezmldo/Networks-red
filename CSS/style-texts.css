@@ -12,30 +12,30 @@ span{
 
 /* DISEÑO DEL TITULO */
 h1{
-    border: white solid;
-    border-radius: 15%;
     margin: 40px auto;
     width: 800px;
+    padding: 5px;
+    border: white solid;
+    border-radius: 15%;
     color: white;
     background-color: #8d0606;
     text-align: center;
-    padding: 6px;
 }
 .titulo-black{
     display: inline-block;
     width: 100%;
-    margin: 0 auto;
+    margin: -75px auto;
 }
 /* DISEÑ0 DEL INDICE */
 fieldset{
-    border-radius: 10px;
-    width: 450px;
-    margin-left: 50px;
-    height: 200px;
-    padding: 10px;
     display: flex;
-    margin-top: 25%;
+    width: 450px;
+    border-radius: 10px;
+    margin: 15% 0 10% 50px;
+    height: 200px;
+    padding: 10px 15px;
 }
+
 .indice legend{
     color: #00F;
     font-size: 30px;
@@ -45,10 +45,11 @@ fieldset{
 .contenido-inicial-white{
     display:flex;
     flex-flow: row wrap;
+    padding: 0 0 100px;
 }
-.contenido-inicial-white .conceptos{
+.contenido-inicial-white .conceptos, .contenido-final-white .navegacion{
     width: 50%;
-    margin: 100px 40px;
+    margin: 0 40px;
     flex-grow: 0.5;
 }
 .contenido-inicial-black{
@@ -56,10 +57,11 @@ fieldset{
     background-color: #000;
     color: #FFF;
     flex-flow: row wrap;
+    padding: 100px 0;
 }
 .contenido-inicial-black .estructura, .contenido-inicial-black .navegadores{
     width: 50%;
-    margin: 100px 40px;
+    margin: 50px 40px;
     flex-grow: 0.5;
 }
 
@@ -69,37 +71,41 @@ fieldset{
     background-color: #000;
     color: #FFF;
     display: flex;
+    padding: 100px 0;
 }
-.contenido-intermedio-black .conceptos{
+.contenido-intermedio-black .conceptos, .contenido-intermedio-black .navegacion{
     width: 75%;
-    margin: 100px 40px;
+    margin: 0 40px;
 }
 .contenido-intermedio-white{
     background-color: #FFF;
     color: #000;
     display: flex;
+    padding: 100px 0;
 }
-.contenido-intermedio-white .estructura{
+.contenido-intermedio-white .estructura, .contenido-intermedio-white .navegadores{
     width: 75%;
-    margin: 100px 40px;
+    margin: 0 40px;
 }
 
 /* DISEÑOS DE CONTENIDOS FINALES */
 .contenido-final-white{
     display:flex;
     flex-flow: row wrap;
+    padding: 100px 0;
 }
-.contenido-final-white .conceptos{
-    width: 50%;
-    margin: 100px 40px;
+.contenido-final-white .conceptos, .contenido-final-white .navegacion{
+    width: 75%;
+    margin: 0 40px;
     flex-grow: 0.5;
 }
 .contenido-final-black{
     background-color: #000;
     color: #FFF;
     display: flex;
+    padding: 100px 0;
 }
-.contenido-final-black .estructura{
+.contenido-final-black .estructura, .contenido-final-black .navegadores{
     width: 75%;
-    margin: 100px 40px;
+    margin: 0 40px;
 }
