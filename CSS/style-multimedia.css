@@ -21,6 +21,8 @@ article img{
     flex-flow: row wrap;
     justify-content:space-around
 } 
+
+/* ESTILO DEL VIDEO DE INTERNET */
 article iframe{
     border: wheat solid;
     border-radius: 15px;
@@ -29,16 +31,8 @@ article iframe{
     height: 400px;
     width: 710px;
 }
-.comando table, .comando  td, .comando th{
-    background-color: rgb(210, 243, 243);
-    border: rgb(22, 2, 44) solid;
-    text-align: center;
-    width: 100%;
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-}
-.navegadores table, .navegadores td, .navegadores th{
+/* ESTILO DE LA TABLA */
+table,  td,  th{
     background-color: rgb(6, 77, 77);
     border: rgb(225, 255, 252) solid;
     text-align: center;
@@ -47,10 +41,12 @@ article iframe{
     margin: 0 auto;
     padding: 10px;
 }
-.tabla-navegadores img{
+.tabla img{
     height: 80px;
     align-items: center;
 }
+
+/* ESTILO DE LOS CAMPOS DE COMENTARIOS */
 #comment{
     background-color: azure;
     border-radius: 10px;
