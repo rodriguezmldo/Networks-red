@@ -47,7 +47,7 @@ fieldset{
     flex-flow: row wrap;
     padding: 0 0 100px;
 }
-.contenido-inicial-white .conceptos, .contenido-final-white .navegacion{
+.contenido-inicial-white .conceptos, .contenido-inicial-white .navegacion{
     width: 50%;
     margin: 0 40px;
     flex-grow: 0.5;

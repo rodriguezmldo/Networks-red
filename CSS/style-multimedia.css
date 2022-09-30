@@ -47,9 +47,31 @@ table,  td,  th{
 }
 
 /* ESTILO DE LOS CAMPOS DE COMENTARIOS */
-#comment{
-    background-color: azure;
+.comment{
+    background-color: rgb(61, 107, 107);
     border-radius: 10px;
-    width: 850px;
+    width: 500px;
     margin-top: 10px;
+    transition: all 2.9s;
+}
+.comment:focus{
+    background-color: rgb(5, 52, 83);
+    border-radius: 15px;
+    width: 700px;
+    margin-top: 10px;
+    color: white;
+    border: rgb(0, 153, 255) solid 3px;
+    padding:10px;
+}
+button{
+    background-color: rgb(195, 221, 221);
+    border-radius: 15px;
+    font-size: 15px;
+    color: rgb(30, 2, 56);
+}
+button:hover{
+    background-color: rgb(5, 52, 83);
+    border-radius: 15px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
 }
