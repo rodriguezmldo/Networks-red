@@ -109,3 +109,9 @@ fieldset{
     width: 75%;
     margin: 0 40px;
 }
+
+.socialMedia{
+    display: flex;
+    margin: auto 100px;
+    padding: auto auto;
+}
