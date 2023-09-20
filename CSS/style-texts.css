@@ -111,7 +111,7 @@ fieldset{
 }
 
 .socialMedia{
-    display: flex;
+    display:block;
     margin: auto 100px;
     padding: auto auto;
 }
