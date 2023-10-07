@@ -30,17 +30,6 @@ a{
     flex-grow: 1.1;
     font-size: 45px;
 }
-/* DISEÑO DEL TITULO */
-.titulo{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    margin: 15px 0;
-    text-align: center;
-    font-size: 30px;
-    color: #a00;
-    flex-flow: row wrap;
-}
 
 /* DISEÑO DEL CONTENIDO */
 .contenido{
@@ -78,3 +67,32 @@ footer{
     height: 200px;
 }
 
+/* Responsive Design Computer and Tablet */
+@media (min-width: 800px){
+    /* DISEÑO DEL TITULO */
+    .titulo{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin: 15px 0;
+        text-align: center;
+        font-size: 30px;
+        color: #a00;
+        flex-flow: row wrap;
+    }
+}
+
+/* Responsive Design Phones */
+@media (max-width: 490px){
+    /* DISEÑO DEL TITULO */
+    .titulo{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        margin: 15px 0;
+        text-align: center;
+        font-size: 100%;
+        color: #a00;
+        flex-flow: row wrap;
+    }
+}

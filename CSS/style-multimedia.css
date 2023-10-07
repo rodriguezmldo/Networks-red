@@ -1,50 +1,13 @@
-/* ESTILO DE IMG DE INDICE-CONTENIDO */
-.indice img{
-    width: 150px;
-    float: inline-end;
-    float: right;
-    top: 0;
-    padding: 5px;
-}
+
 /* ESTILO DE IMG CONTENIDOS */
-article img{
-    height: 250px;
-    border-radius: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+
  .contenido-final-black .estructura div{
     display: flex;
     flex-flow: row wrap;
     justify-content:space-around
 } 
 
-/* ESTILO DEL VIDEO DE INTERNET */
-article iframe{
-    border: wheat solid;
-    border-radius: 15px;
-    display: flex;
-    margin: 0 auto;
-    height: 400px;
-    width: 710px;
-}
-/* ESTILO DE LA TABLA */
-table,  td,  th{
-    background-color: rgb(6, 77, 77);
-    border: rgb(225, 255, 252) solid;
-    text-align: center;
-    width: 750px;
-    border-collapse: collapse;
-    margin: 0 auto;
-    padding: 10px;
-}
-.tabla img{
-    height: 80px;
-    align-items: center;
-}
+
 
 /* ESTILO DE LOS CAMPOS DE COMENTARIOS */
 .comment{
@@ -56,8 +19,8 @@ table,  td,  th{
 }
 .comment:focus{
     background-color: rgb(5, 52, 83);
-    border-radius: 15px;
-    width: 700px;
+    border-radius: 10px;
+    width: 500px;
     margin-top: 10px;
     color: white;
     border: rgb(0, 153, 255) solid 3px;
@@ -75,3 +38,124 @@ button:hover{
     font-size: 15px;
     color: rgb(255, 255, 255);
 }
+
+
+/* Responsive Design Computer and tablets */
+@media (min-width: 800px){
+
+    /* ESTILO DE IMG DE INDICE-CONTENIDO */
+    .indice img{
+        width: 150px;
+        float: inline-end;
+        float: right;
+        top: 0;
+        padding: 5px;
+    }
+    
+    article img{
+        height: 250px;
+        border-radius: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* ESTILO DEL VIDEO DE INTERNET */
+    article iframe{
+        border: wheat solid;
+        border-radius: 15px;
+        display: flex;
+        margin: 0 auto;
+        height: 400px;
+        width: 710px;
+    }
+
+    /* ESTILO DE LA TABLA */
+    table,  td,  th{
+        background-color: rgb(6, 77, 77);
+        border: rgb(225, 255, 252) solid;
+        text-align: center;
+        width: 750px;
+        border-collapse: collapse;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .tabla img{
+        height: 80px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 490px){
+
+    /* ESTILO DE IMG DE INDICE-CONTENIDO */
+    .indice img{
+        height: 150px;
+        float: inline-end;
+        float: unset;
+        top: 0;
+        padding: 5px;
+    }
+    article img{
+        height: 170px;
+        border-radius: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    /* ESTILO DEL VIDEO DE INTERNET */
+    article iframe{
+        border: wheat solid;
+        border-radius: 15px;
+        display: flex;
+        margin: 0 auto;
+        height: 250px;
+        width: 95%;
+    }
+
+    /* ESTILOS AREA DE COMENTARIOS PARA PHONES */
+    .comment{
+        background-color: rgb(61, 107, 107);
+        border-radius: 10px;
+        width: 90%;
+        margin-top: 10px;
+        transition: all 1.5s;
+    }
+    .comment:focus{
+        background-color: rgb(5, 52, 83);
+        border-radius: 15px;
+        width: 99%;
+        margin-top: 10px;
+        color: white;
+        border: rgb(0, 153, 255) solid 2px;
+        padding:5px;
+    }
+
+    button{
+        margin-top: 5px;
+    }
+
+    /* ESTILO DE LA TABLA */
+    table,  td,  th{
+        background-color: rgb(6, 77, 77);
+        border: rgb(225, 255, 252) solid;
+        text-align: center;
+        width: 99%;
+        border-collapse: collapse;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    .tabla img{
+        height: 80px;
+        align-items: center;
+    }
+
+}
+
+
+
